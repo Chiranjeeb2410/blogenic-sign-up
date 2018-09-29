@@ -3,5 +3,5 @@ blogenicsignup.form:
 defaults:
     _title: 'Application form'
     _form: '\Drupal\blogenicsignup\Form\blogenicsignupForm'
- requirements:
+requirements:
     _permission: 'access content'
