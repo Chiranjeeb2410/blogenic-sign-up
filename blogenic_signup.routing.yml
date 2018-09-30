@@ -3,5 +3,6 @@ blogenic_signup.settings:
   defaults:
     _title: 'User sign-up'
     _form: '\Drupal\blogenic_signup\Form\BlogenicSignupForm'
+    _controller: 'Drupal\blogenic_signup\Controller\blogenic_signupController::signup'
   requirements:
     _permission: 'access content'
