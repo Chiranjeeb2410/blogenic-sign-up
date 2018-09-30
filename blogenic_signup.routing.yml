@@ -1,0 +1,7 @@
+blogenic_signup.settings:
+  path: '/blogenic_signup/myform'
+  defaults:
+    _title: 'User sign-up'
+    _form: '\Drupal\blogenic_signup\Form\BlogenicSignupForm'
+  requirements:
+    _permission: 'access content'
