@@ -1,7 +1,0 @@
-blogenicsignup.form:
- path: '/blogenicsignup/myform'
- defaults:
-   _title: 'Sign Up form'
-   _form: '\Drupal\blogenicsignup\Form\blogenicsignupForm'
- requirements:
-   _permission: 'access content'

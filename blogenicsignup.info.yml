@@ -1,5 +1,0 @@
-name: blogenic-sign-up
-description: a user profile for blogenic
-core: 8.x
-package: Custom
-type: module
