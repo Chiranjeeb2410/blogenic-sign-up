@@ -11,7 +11,7 @@ class blogenic_signupController extends ControllerBase{
 	public function signup(){
 
 		$form_class = '\Drupal\blogenic_signup\Form\blogenic_signupForm';
-		$build['form'] = \Drupal::formuilder()->getForm('\Drupal\blogenic_signup\Form\blogenic_signupForm');
+		$build['form'] = \Drupal::formBuilder()->getForm('\Drupal\blogenic_signup\Form\blogenic_signupForm');
 		$markup = $form;
 		
 		return[
