@@ -46,7 +46,7 @@ class BlogenicSignupForm extends FormBase {
       '#required' => TRUE,
     ];
 
-    $form['phone_number'] = [
+    $form['user_number'] = [
       '#type' => 'tel',
       '#title' => $this->t('Mobile no'),
     ];
